@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Тег INPUT</title>
+ </head>
+ <body>
+    
+    <h2>Адаптивная контактная форма</h2>
+    <div class="container">
+      <form action="#">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Имя</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Ваше имя..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Фамилия</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Ваша фамилия..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Страна</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="finland">Финляндия</option>
+              <option value="germany">Германия</option>
+              <option value="italy">Италия</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Тема</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Напишите что-нибудь.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Отправить">
+        </div>
+      </form>
+    </div>
